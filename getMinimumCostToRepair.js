@@ -21,8 +21,8 @@ function getMinimumCostToRepair(
 ) {
   // WRITE YOUR CODE HERE
 
-  const matix = Array.from(Array(numTotalAvailableCities)).map(() => {
-    return Array.from(Array(numTotalAvailableCities)).map(() => 0);
+  const matix = Array.from({ length: numTotalAvailableCities }).map(() => {
+    return Array.from({length: numTotalAvailableCities}).map(() => 0);
   });
   roadsAvailable.forEach(road => {
     matix[road[0] - 1][road[1] - 1] = 1;
