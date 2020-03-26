@@ -64,4 +64,4 @@ function solution(A, K) {
   });
 }
 
-console.log(solution([45, 35, 80, 123, 1], 1));
+console.log(solution([45, 35, 80, 123, 1], 3));
