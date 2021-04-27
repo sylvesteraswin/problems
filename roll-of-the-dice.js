@@ -36,5 +36,6 @@ function rollOFTheDice(arr, missing, mean) {
   return missingArr;
 }
 
-// console.log(rollOFTheDice([3, 2, 4, 3], 2, 4));
+console.log(rollOFTheDice([3, 2, 4, 3], 2, 4));
 console.log(rollOFTheDice([1, 5, 6], 4, 3));
+console.log(rollOFTheDice([1, 6], 1, 1));
